@@ -1,0 +1,58 @@
+header {
+  background-color: black;
+  color: white;
+  box-sizing: border-box;
+}
+
+main {
+  margin:
+  background-color: rgba(100, 255, 0, 250);
+  font-style: italic;
+  opacity: 50;
+}
+
+lose {
+  background-color: rgb(225, 100, 0);
+  text-align: center;
+}
+
+.cheese {
+  color: blue;
+  background-color: rgb(200, 50, 50);
+}
+
+.fun {
+  opacity: 0.5;
+  margin-left: 20px;
+  box-sizing: border-box;
+}
+
+.fun:hover {
+  opacity: 1.0;
+}
+
+.loner {
+  position:absolute;
+  left:10px;
+  top:100px;
+
+}
+li a {
+   text-decoration: none;
+}
+ul {
+  text-decoration: none;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 5px 10px 2px;
+
+}
+
+@media (max-width: 600px) {
+  body{
+    background: yellow;
+  }
+
+}
